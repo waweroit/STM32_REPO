@@ -1,3 +1,0 @@
-git add .
-git commit -m "cos tam"
-git push origin master
