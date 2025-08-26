@@ -1,0 +1,13 @@
+../Core/Src/File_Handling.c:33:6:InitializeSDCard	8	static
+../Core/Src/File_Handling.c:70:9:Mount_SD	16	static
+../Core/Src/File_Handling.c:84:9:Unmount_SD	16	static
+../Core/Src/File_Handling.c:94:9:Scan_SD	128	static
+../Core/Src/File_Handling.c:160:9:Format_SD	96	static
+../Core/Src/File_Handling.c:191:9:Write_File	40	static
+../Core/Src/File_Handling.c:250:9:Read_File	120	static
+../Core/Src/File_Handling.c:346:9:Read_And_Display_JPEG	4304	static
+../Core/Src/File_Handling.c:440:9:Create_File	40	static
+../Core/Src/File_Handling.c:489:9:Update_File	40	static
+../Core/Src/File_Handling.c:553:9:Remove_File	32	static
+../Core/Src/File_Handling.c:588:9:Create_Dir	24	static
+../Core/Src/File_Handling.c:608:6:Check_SD_Space	16	static

@@ -1,0 +1,103 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
+################################################################################
+
+C++M_SRCS := 
+CPP_SRCS := 
+S_UPPER_SRCS := 
+O_SRCS := 
+ELF_SRCS := 
+C_UPPER_SRCS := 
+CXX_SRCS := 
+CCM_SRCS := 
+C++_SRCS := 
+OBJ_SRCS := 
+S_SRCS := 
+CC_SRCS := 
+C_SRCS := 
+CXXM_SRCS := 
+CYCLO_FILES := 
+OBJDUMP_LIST := 
+CCM_DEPS := 
+C_UPPER_DEPS := 
+S_DEPS := 
+CXXM_DEPS := 
+C_DEPS := 
+CC_DEPS := 
+SIZE_OUTPUT := 
+C++_DEPS := 
+SU_FILES := 
+EXECUTABLES := 
+OBJS := 
+CXX_DEPS := 
+MAP_FILES := 
+S_UPPER_DEPS := 
+C++M_DEPS := 
+CPP_DEPS := 
+
+# Every subdirectory with source files must be described here
+SUBDIRS := \
+Core/Src \
+Core/Src/lvgl/src/core \
+Core/Src/lvgl/src/draw/arm2d \
+Core/Src/lvgl/src/draw \
+Core/Src/lvgl/src/draw/nxp/pxp \
+Core/Src/lvgl/src/draw/nxp/vglite \
+Core/Src/lvgl/src/draw/renesas \
+Core/Src/lvgl/src/draw/sdl \
+Core/Src/lvgl/src/draw/stm32_dma2d \
+Core/Src/lvgl/src/draw/sw \
+Core/Src/lvgl/src/draw/swm341_dma2d \
+Core/Src/lvgl/src/extra/layouts/flex \
+Core/Src/lvgl/src/extra/layouts/grid \
+Core/Src/lvgl/src/extra/libs/bmp \
+Core/Src/lvgl/src/extra/libs/ffmpeg \
+Core/Src/lvgl/src/extra/libs/freetype \
+Core/Src/lvgl/src/extra/libs/fsdrv \
+Core/Src/lvgl/src/extra/libs/gif \
+Core/Src/lvgl/src/extra/libs/png \
+Core/Src/lvgl/src/extra/libs/qrcode \
+Core/Src/lvgl/src/extra/libs/rlottie \
+Core/Src/lvgl/src/extra/libs/sjpg \
+Core/Src/lvgl/src/extra/libs/tiny_ttf \
+Core/Src/lvgl/src/extra \
+Core/Src/lvgl/src/extra/others/fragment \
+Core/Src/lvgl/src/extra/others/gridnav \
+Core/Src/lvgl/src/extra/others/ime \
+Core/Src/lvgl/src/extra/others/imgfont \
+Core/Src/lvgl/src/extra/others/monkey \
+Core/Src/lvgl/src/extra/others/msg \
+Core/Src/lvgl/src/extra/others/snapshot \
+Core/Src/lvgl/src/extra/themes/basic \
+Core/Src/lvgl/src/extra/themes/default \
+Core/Src/lvgl/src/extra/themes/mono \
+Core/Src/lvgl/src/extra/widgets/animimg \
+Core/Src/lvgl/src/extra/widgets/calendar \
+Core/Src/lvgl/src/extra/widgets/chart \
+Core/Src/lvgl/src/extra/widgets/colorwheel \
+Core/Src/lvgl/src/extra/widgets/imgbtn \
+Core/Src/lvgl/src/extra/widgets/keyboard \
+Core/Src/lvgl/src/extra/widgets/led \
+Core/Src/lvgl/src/extra/widgets/list \
+Core/Src/lvgl/src/extra/widgets/menu \
+Core/Src/lvgl/src/extra/widgets/meter \
+Core/Src/lvgl/src/extra/widgets/msgbox \
+Core/Src/lvgl/src/extra/widgets/span \
+Core/Src/lvgl/src/extra/widgets/spinbox \
+Core/Src/lvgl/src/extra/widgets/spinner \
+Core/Src/lvgl/src/extra/widgets/tabview \
+Core/Src/lvgl/src/extra/widgets/tileview \
+Core/Src/lvgl/src/extra/widgets/win \
+Core/Src/lvgl/src/font \
+Core/Src/lvgl/src/hal \
+Core/Src/lvgl/src/misc \
+Core/Src/lvgl/src/widgets \
+Core/Src/ui \
+Core/Startup \
+Drivers/STM32F4xx_HAL_Driver/Src \
+FATFS/App \
+FATFS/Target \
+Middlewares/Third_Party/FatFs/src \
+Middlewares/Third_Party/FatFs/src/option \
+

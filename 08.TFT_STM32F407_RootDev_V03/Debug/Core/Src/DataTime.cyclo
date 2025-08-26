@@ -1,0 +1,4 @@
+../Core/Src/DataTime.c:13:6:ProcessNTPResponse	17
+../Core/Src/DataTime.c:122:6:IncrementLocalTime	8
+../Core/Src/DataTime.c:170:13:GetDayOfWeek	4
+../Core/Src/DataTime.c:194:5:IsLeapYear	4

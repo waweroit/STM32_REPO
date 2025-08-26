@@ -1,0 +1,10 @@
+C:/Users/wawer/STM32CubeIDE/workspace_1.14.1/08.TFT_STM32F407_RootDev/Core/Src/lvgl/src/hal/../draw/../misc/lv_color.h:599:26:lv_color_hex	24	static
+../Core/Src/ui/actions.c:16:6:action_car_start_stop_engine_button_pressed	16	static
+../Core/Src/ui/actions.c:21:6:action_lo_ra_reset_button_pressed	16	static
+../Core/Src/ui/actions.c:26:6:action_wi_fi_reset_button_pressed	16	static
+../Core/Src/ui/actions.c:31:6:action_wi_fi_disable_button_pressed	16	static
+../Core/Src/ui/actions.c:36:6:action_car_auto_start_switch_pressed	16	static
+../Core/Src/ui/actions.c:41:6:SetWifiStatusFlagsLVGL	16	static
+../Core/Src/ui/actions.c:53:6:SetLoRaStatusFlagsLVGL	16	static
+../Core/Src/ui/actions.c:65:6:SetDateTimeLVGL	96	static
+../Core/Src/ui/actions.c:72:6:SetLocalTempHumPressureLVGL	32	static

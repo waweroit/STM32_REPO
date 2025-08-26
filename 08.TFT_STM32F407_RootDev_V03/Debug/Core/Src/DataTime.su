@@ -1,0 +1,4 @@
+../Core/Src/DataTime.c:13:6:ProcessNTPResponse	104	static
+../Core/Src/DataTime.c:122:6:IncrementLocalTime	24	static
+../Core/Src/DataTime.c:170:13:GetDayOfWeek	40	static
+../Core/Src/DataTime.c:194:5:IsLeapYear	16	static
