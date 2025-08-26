@@ -1,0 +1,12 @@
+../Core/Src/waweroBasicFunction.c:12:6:ToggleLedOnBlackPill	8	static
+../Core/Src/waweroBasicFunction.c:19:6:ToggleLedOnBlackPill_X_Times	24	static
+../Core/Src/waweroBasicFunction.c:41:5:ReadStatusRelay1_UPS	16	static
+../Core/Src/waweroBasicFunction.c:57:5:ReadStatusRelay2_BATTERY_CHARGE	16	static
+../Core/Src/waweroBasicFunction.c:103:6:SetRelay1_UPS	16	static
+../Core/Src/waweroBasicFunction.c:111:6:SetRelay2_BATTERY_CHARGE	16	static
+../Core/Src/waweroBasicFunction.c:138:5:ReadStatusRelay3_MainPower	16	static
+../Core/Src/waweroBasicFunction.c:154:5:ReadStatusRelay4_InverterPower	16	static
+../Core/Src/waweroBasicFunction.c:170:6:SetRelaySSR_3_MainPower	16	static
+../Core/Src/waweroBasicFunction.c:179:6:SetRelaySSR_4_InverterPower	16	static
+../Core/Src/waweroBasicFunction.c:248:6:DelayInit	4	static,ignoring_inline_asm
+../Core/Src/waweroBasicFunction.c:264:6:DelayUS	32	static

@@ -1,0 +1,4 @@
+../Core/Src/waweroBasicFunction.c:13:6:ToggleLedOn	4	static
+../Core/Src/waweroBasicFunction.c:21:6:DelayInit	4	static,ignoring_inline_asm
+../Core/Src/waweroBasicFunction.c:37:6:DelayUS	32	static
+../Core/Src/waweroBasicFunction.c:50:6:PrintImage	32	static

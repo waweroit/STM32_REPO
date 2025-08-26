@@ -1,0 +1,5 @@
+../Core/Src/main - Copy.c:118:5:main	8	static
+../Core/Src/main - Copy.c:441:6:SystemClock_Config	88	static
+../Core/Src/main - Copy.c:484:6:HAL_ADC_ConvCpltCallback	16	static
+../Core/Src/main - Copy.c:492:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main - Copy.c:513:6:Error_Handler	4	static,ignoring_inline_asm

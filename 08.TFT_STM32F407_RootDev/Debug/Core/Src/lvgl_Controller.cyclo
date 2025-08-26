@@ -1,0 +1,12 @@
+C:/Users/wawer/STM32CubeIDE/workspace_1.14.1/08.TFT_STM32F407_RootDev/Core/Src/lvgl/src/hal/../draw/../misc/lv_color.h:350:24:lv_color_to16	1
+../Core/Src/lvgl_Controller.c:76:6:lv_port_disp_init	1
+../Core/Src/lvgl_Controller.c:161:13:disp_init	1
+../Core/Src/lvgl_Controller.c:170:6:disp_enable_update	1
+../Core/Src/lvgl_Controller.c:177:6:disp_disable_update	1
+../Core/Src/lvgl_Controller.c:185:13:disp_flush	1
+../Core/Src/lvgl_Controller.c:242:6:DrawRGBImage	2
+../Core/Src/lvgl_Controller.c:306:6:lv_port_indev_init	1
+../Core/Src/lvgl_Controller.c:347:13:touchpad_init	1
+../Core/Src/lvgl_Controller.c:353:13:touchpad_read	2
+../Core/Src/lvgl_Controller.c:376:13:touchpad_is_pressed	4
+../Core/Src/lvgl_Controller.c:401:13:touchpad_get_xy	1

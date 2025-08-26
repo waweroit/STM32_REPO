@@ -1,0 +1,7 @@
+../Core/Src/INI_FileHandling.c:11:9:Load_INI_File	6
+../Core/Src/INI_FileHandling.c:67:6:Get_INI_Value	4
+../Core/Src/INI_FileHandling.c:79:6:Set_INI_Value	4
+../Core/Src/INI_FileHandling.c:95:6:Get_INI_Value_As_Int	3
+../Core/Src/INI_FileHandling.c:126:6:TrimWhitespace	5
+../Core/Src/INI_FileHandling.c:143:6:TrimString	5
+../Core/Src/INI_FileHandling.c:164:6:Convert_INI_Value_To_Int	5

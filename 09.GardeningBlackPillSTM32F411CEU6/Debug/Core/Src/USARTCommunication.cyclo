@@ -1,0 +1,2 @@
+../Core/Src/USARTCommunication.c:13:6:InitUSART	1
+../Core/Src/USARTCommunication.c:25:19:Send	3

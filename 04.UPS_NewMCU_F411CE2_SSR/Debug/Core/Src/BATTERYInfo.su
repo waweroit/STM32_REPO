@@ -1,0 +1,2 @@
+../Core/Src/BATTERYInfo.c:11:7:ReadDCBattVoltageFromADC	32	static
+../Core/Src/BATTERYInfo.c:36:16:BatteryInformation	24	static

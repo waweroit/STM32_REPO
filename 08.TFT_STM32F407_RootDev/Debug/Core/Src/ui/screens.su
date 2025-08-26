@@ -1,0 +1,5 @@
+C:/Users/wawer/STM32CubeIDE/workspace_1.14.1/08.TFT_STM32F407_RootDev/Core/Src/lvgl/src/hal/../draw/../misc/lv_color.h:599:26:lv_color_hex	24	static
+../Core/Src/ui/screens.c:16:6:create_screen_main	336	static
+../Core/Src/ui/screens.c:583:6:tick_screen_main	4	static
+../Core/Src/ui/screens.c:587:6:create_screens	32	static
+../Core/Src/ui/screens.c:601:6:tick_screen	16	static

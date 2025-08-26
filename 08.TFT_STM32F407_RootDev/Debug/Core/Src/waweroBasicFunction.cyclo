@@ -1,0 +1,4 @@
+../Core/Src/waweroBasicFunction.c:13:6:ToggleLedOn	1
+../Core/Src/waweroBasicFunction.c:21:6:DelayInit	1
+../Core/Src/waweroBasicFunction.c:37:6:DelayUS	2
+../Core/Src/waweroBasicFunction.c:50:6:PrintImage	3

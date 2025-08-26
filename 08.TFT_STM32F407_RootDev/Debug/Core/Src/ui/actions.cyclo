@@ -1,0 +1,5 @@
+../Core/Src/ui/actions.c:15:6:action_car_start_stop_engine_button_pressed	1
+../Core/Src/ui/actions.c:20:6:action_lo_ra_reset_button_pressed	1
+../Core/Src/ui/actions.c:25:6:action_wi_fi_reset_button_pressed	1
+../Core/Src/ui/actions.c:30:6:action_wi_fi_disable_button_pressed	1
+../Core/Src/ui/actions.c:35:6:action_car_auto_start_switch_pressed	1

@@ -1,0 +1,2 @@
+../Core/Src/MoistureSensor.c:13:5:ScaleADC_Light_To_Percentage	9
+../Core/Src/MoistureSensor.c:43:5:ScaleADC_To_Percent_Inverted_Ranged	6
