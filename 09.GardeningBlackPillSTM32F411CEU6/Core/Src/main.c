@@ -104,12 +104,15 @@ int main(void)
   int MoistureGeneral = 0;
 
   bool PumpIsRunnign = false;
-  int StartPumpWhenMoistureLower = 35;
-  int StopPumpWhenMoistureHigher = 50;
+  int StartPumpWhenMoistureLower = 45;
+  int StopPumpWhenMoistureHigher = 60;
 
 
   int GetLightMesurment_TimeLenghtDefault = 5000; // 5 sek
   uint32_t GetLightMesurment_FromTime = 0;
+
+  int MixWater_TimeLenghtDefault = 10800000; // 3h
+  uint32_t MixWater_FromTime = 0;
 
   int LightSensorPercent = 0;
   Light_State LightSensor = DARK;
@@ -225,7 +228,7 @@ int main(void)
 				 snprintf(txBuffer, sizeof(txBuffer), "Moisture sensor Dev 2: %d %%\r\n", MoistureHumidityPercent_Dev_2);
 				 Send(txBuffer);
 
-				 MoistureGeneral = (MoistureHumidityPercent_Dev_1 +MoistureHumidityPercent_Dev_2)/2;
+				 MoistureGeneral = (MoistureHumidityPercent_Dev_1 + MoistureHumidityPercent_Dev_2)/2;
 				 memset(txBuffer, 0, sizeof(txBuffer));
 				 snprintf(txBuffer, sizeof(txBuffer), "Soil moisture avg: %d %%\r\n", MoistureGeneral);
 				 Send(txBuffer);
@@ -320,6 +323,26 @@ int main(void)
 						break;
 				 }
 
+			 }
+		}
+		TimeNOW = HAL_GetTick();
+
+		if(((uint32_t)TimeNOW - MixWater_FromTime) >= MixWater_TimeLenghtDefault)
+		{
+			MixWater_FromTime = TimeNOW;
+
+			 if(MoistureGeneral < StopPumpWhenMoistureHigher && PumpIsRunnign == false)
+			 {
+				 memset(txBuffer, 0, sizeof(txBuffer));
+				 snprintf(txBuffer, sizeof(txBuffer), "Mixing water..\r\n");
+				 Send(txBuffer);
+				 HAL_GPIO_WritePin(PIN_PB10_Pump_GPIO_Port, PIN_PB10_Pump_Pin, GPIO_PIN_SET);
+				 HAL_Delay(5000);
+				 HAL_GPIO_WritePin(PIN_PB10_Pump_GPIO_Port, PIN_PB10_Pump_Pin, GPIO_PIN_RESET);
+				 HAL_Delay(5000);
+				 HAL_GPIO_WritePin(PIN_PB10_Pump_GPIO_Port, PIN_PB10_Pump_Pin, GPIO_PIN_SET);
+				 HAL_Delay(5000);
+				 HAL_GPIO_WritePin(PIN_PB10_Pump_GPIO_Port, PIN_PB10_Pump_Pin, GPIO_PIN_RESET);
 			 }
 		}
     /* USER CODE END WHILE */

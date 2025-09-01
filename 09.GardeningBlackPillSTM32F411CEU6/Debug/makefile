@@ -60,8 +60,8 @@ all: main-build
 main-build: 09.GardeningBlackPillSTM32F411CEU6.elf secondary-outputs
 
 # Tool invocations
-09.GardeningBlackPillSTM32F411CEU6.elf 09.GardeningBlackPillSTM32F411CEU6.map: $(OBJS) $(USER_OBJS) C:\Users\waweroIT\Desktop\STMProjekty\09.GardeningBlackPillSTM32F411CEU6\STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "09.GardeningBlackPillSTM32F411CEU6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\waweroIT\Desktop\STMProjekty\09.GardeningBlackPillSTM32F411CEU6\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="09.GardeningBlackPillSTM32F411CEU6.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+09.GardeningBlackPillSTM32F411CEU6.elf 09.GardeningBlackPillSTM32F411CEU6.map: $(OBJS) $(USER_OBJS) C:\Users\waweroIT\Desktop\GitHub\STM32_REPO\09.GardeningBlackPillSTM32F411CEU6\STM32F411CEUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "09.GardeningBlackPillSTM32F411CEU6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\waweroIT\Desktop\GitHub\STM32_REPO\09.GardeningBlackPillSTM32F411CEU6\STM32F411CEUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="09.GardeningBlackPillSTM32F411CEU6.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
